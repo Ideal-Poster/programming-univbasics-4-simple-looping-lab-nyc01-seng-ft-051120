@@ -21,7 +21,9 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  array_length = array.length
-  new_array = Array.new(array.length)
-  
+  string_array = []
+  count = 0
+  array.length.times do 
+    string_array << array[count].to_s
+  end
 end
