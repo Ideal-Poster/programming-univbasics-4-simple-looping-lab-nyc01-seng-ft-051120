@@ -26,4 +26,5 @@ def return_string_array(array)
   array.length.times do 
     string_array << array[count].to_s
   end
+  string_array
 end
