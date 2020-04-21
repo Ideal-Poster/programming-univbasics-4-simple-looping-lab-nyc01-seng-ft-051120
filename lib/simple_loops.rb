@@ -2,6 +2,6 @@
 
 def loop_message_five_times(messsage)
   5.times do 
-    "Hello World"
+    puts message
   end
 end
